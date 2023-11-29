@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0 0 0 0;
+}
+
+.sign-up {
+  margin-left: -30px;
+}
+
+.container {
+  display: grid;
+  background-color: #272727;
+  height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+  grid-template-columns: 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+}
+
+/* SIGN UP TEXT */
+.header-text {
+  display: grid;
+  grid-column: 1;
+  margin: 0 auto;
+  color: #ffffff;
+  position: absolute;
+  transform: rotate(-90deg);
+  left: 50px;
+  top: 40vh;
+  font-size: 8rem;
+}
+
+.header-text-login {
+  display: grid;
+  grid-column: 1;
+  margin: 0 auto;
+  color: #ffffff;
+  position: absolute;
+  transform: rotate(-90deg);
+  left: 120px;
+  top: 40vh;
+  font-size: 8rem;
+}
+
+.background-img {
+  height: 100vh;
+  border-right: 8px solid #6eeb83;
+}
+
+/* SIGN UP FORM CONTAINER */
+
+.sign-up-container {
+  /* border: 2px solid white; */
+  width: 60%;
+}
+
+.welcome-text {
+  margin-top: 0;
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: -10px;
+}
+
+.welcome-subtext {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 100;
+  margin-top: 13px;
+  color: #a5a5a5;
+  font-size: 25px;
+}
+
+/* INPUT FORMS */
+
+.form {
+  color: #a5a5a5;
+  background: transparent;
+  /* border: 1px solid #6eeb83; */
+  margin: 13px 0px;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+}
+
+.account-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: top;
+  width: 100%;
+  /* border: 2px solid white; */
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.create-account {
+  display: inline-block;
+  align-self: center;
+}
+
+.create-account-text {
+  color: #ffffff;
+  margin: 0;
+}
+
+.create-account-link {
+  appearance: none;
+  text-decoration-line: none;
+  color: #6eeb83;
+  font-weight: bolder;
+}
+
+/* FORM INPUT STYLE */
+
+input {
+  font-family: "Lexend Deca", sans-serif;
+  border: 1.5px solid #6eeb83;
+  border-radius: 2px;
+  text-indent: 35px;
+}
+
+input[type="text"],
+input[type="password"] {
+  color: #ffffff;
+  font-size: 17px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border: 5px solid #1fe06f;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: white !important;
+}
+
+input::placeholder {
+  text-indent: 35px;
+  font-size: 17px;
+}
+
+/* BUTTONS */
+.submit-btn {
+  outline: none;
+  font-size: 20px;
+  border-radius: 1px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: bolder;
+  background-color: #6eeb83;
+  padding: 20px 40px;
+}
+
+.submit-btn:hover {
+  color: white;
+  background-color: #1fe06f;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}

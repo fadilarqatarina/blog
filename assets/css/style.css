@@ -1,0 +1,19 @@
+body {
+  background-color: #272727;
+  margin: 0;
+}
+
+.container {
+  padding-top: -20px;
+  overflow-y: hidden;
+  height: 100vh;
+  grid-template-columns: 1fr 4fr;
+}
+
+.info {
+  padding: 0;
+  height: 100vh;
+  grid-column: 1;
+  width: 150px;
+  border-right: 8px solid #6eeb83;
+}
